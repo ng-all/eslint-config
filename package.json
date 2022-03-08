@@ -4,7 +4,6 @@
         "url": "https://github.com/ng-all/eslint-config/issues"
     },
     "dependencies": {
-        "@angular-eslint/builder": "latest",
         "@angular-eslint/eslint-plugin": "latest",
         "@angular-eslint/eslint-plugin-template": "latest",
         "@angular-eslint/template-parser": "latest",
@@ -21,6 +20,9 @@
     "license": "MIT",
     "main": "index.js",
     "name": "@ng-all/eslint-config",
+    "peerDependencies": {
+        "@angular-eslint/builder": "latest"
+    },
     "publishConfig": {
         "access": "public"
     },
@@ -28,5 +30,5 @@
         "type": "git",
         "url": "https://github.com/ng-all/eslint-config.git"
     },
-    "version": "0.1.0"
+    "version": "0.1.1"
 }

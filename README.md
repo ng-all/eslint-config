@@ -65,10 +65,13 @@ $ npx eslint ./ --ext .ts --ext .js --ext .html
 }
 ```
 
-## Dependencies
+## Dependency
 
-* [@angular-eslint/builder](https://www.npmjs.com/@angular-eslint/builder)
-* [@angular-eslint/eslint-plugin](https://www.npmjs.com/@angular-eslint/eslint-plugin)
-* [@angular-eslint/eslint-plugin-template](https://www.npmjs.com/@angular-eslint/eslint-plugin-template)
-* [@angular-eslint/template-parser](https://www.npmjs.com/@angular-eslint/template-parser)
-* [@ts-all/eslint-config](https://www.npmjs.com/@ts-all/eslint-config)
+* dependencies
+    * [@angular-eslint/eslint-plugin](https://www.npmjs.com/@angular-eslint/eslint-plugin)
+    * [@angular-eslint/eslint-plugin-template](https://www.npmjs.com/@angular-eslint/eslint-plugin-template)
+    * [@angular-eslint/template-parser](https://www.npmjs.com/@angular-eslint/template-parser)
+    * [@ts-all/eslint-config](https://www.npmjs.com/@ts-all/eslint-config)
+
+* *peerDependencies*
+  * [@angular-eslint/builder](https://www.npmjs.com/@angular-eslint/builder)
