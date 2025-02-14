@@ -19,7 +19,7 @@ const config: FlatConfig.ConfigArray = [
     },
     {
         name: '@ng-all/eslint-config/template',
-        files: ['**/*.html'],
+        files: ['**/src/**/*.html'],
         languageOptions: {
             parser: {
                 meta: angularTemplateParser.meta,
