@@ -1,4 +1,6 @@
 .editorconfig
-.eslintrc.js
-test
+.vscode
+eslint.config.mjs
+lintee
+tsconfig.eslint.json
 tsconfig.json
