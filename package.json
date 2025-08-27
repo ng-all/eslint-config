@@ -4,16 +4,16 @@
         "url": "https://github.com/ng-all/eslint-config/issues"
     },
     "dependencies": {
-        "@angular-eslint/eslint-plugin": "^19.1.0",
-        "@angular-eslint/eslint-plugin-template": "^19.1.0",
-        "@angular-eslint/template-parser": "^19.1.0",
-        "@ts-all/eslint-config": "^0.2.1"
+        "@angular-eslint/eslint-plugin": "^20.2.0",
+        "@angular-eslint/eslint-plugin-template": "^20.2.0",
+        "@angular-eslint/template-parser": "^20.2.0",
+        "@ts-all/eslint-config": "^0.3.0"
     },
     "description": "eslint-config for Angular projects",
     "devDependencies": {
-        "@angular/core": "^19.1.6",
-        "@types/node": "^22.13.4",
-        "typescript": "^5.7.3"
+        "@angular/core": "^20.2.1",
+        "@types/node": "^24.3.0",
+        "typescript": "^5.9.2"
     },
     "exports": {
         ".": "./esm/index.js",
@@ -43,5 +43,5 @@
     },
     "type": "module",
     "types": "./esm/index.d.ts",
-    "version": "0.2.1"
+    "version": "0.3.0"
 }
