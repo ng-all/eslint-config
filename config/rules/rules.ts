@@ -32,7 +32,7 @@ export const angularRules: Linter.RulesRecord = Object.freeze<Linter.RulesRecord
     '@angular-eslint/no-pipe-impure': 'error',
     '@angular-eslint/no-queries-metadata-property': 'error',
     '@angular-eslint/pipe-prefix': 'off',
-    '@angular-eslint/prefer-on-push-component-change-detection': 'error',
+    '@angular-eslint/prefer-on-push-component-change-detection': 'off',
     '@angular-eslint/prefer-output-readonly': 'error',
     '@angular-eslint/prefer-signals': ['error', { preferReadonlySignalProperties: true, preferInputSignals: false, preferQuerySignals: false, useTypeChecking: true }],
     '@angular-eslint/prefer-standalone': 'error',
